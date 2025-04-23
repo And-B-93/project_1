@@ -1,0 +1,542 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    @font-face {
+        font-family: "TT Lakes";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: URL(fonts/TTLakes-Light.woff) format(woff);
+    }
+
+    @font-face {
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-display: swap;
+        src: URL(fonts/TTLakesCondensed-Bold.woff) format(woff);
+    }
+
+    body {
+        font-family: "TT Lakes";
+    }
+
+    main {
+        background-color: #F8F8F8;
+        margin: 0 -8px;
+        padding-top: 5px;
+        border-top: 1px solid #B8FFEC;
+    }
+
+    h1 {
+        font-family: "TT Lakes Condensed";
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -0.6px;
+        margin-left: 10px;
+    }
+
+    h1::before {
+        content: url(icon/highlight.svg);
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    .buttons {
+        align-self: center;
+        background-size: cover;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border: none; 
+    }
+
+    .logo__buttons {
+        background-size: cover;
+        background-color: white;
+        width: 96.55px;
+        height: 50.81px;
+        border: none; 
+    }
+
+    .interactiv-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        margin: 15px -8px;
+        column-gap: 20px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+    }
+
+    .buttons--burger {
+        background-image: url(icon/burger.svg);
+    }
+
+    .central-buttons {
+        width: 100vw;
+        display: flex;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .logo__buttons--logo {
+        background-image: url(icon/logo.svg);       
+    }
+
+    .call-chat-profile {
+        display: none;
+    }  
+
+    .repair-check {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 20px;
+    }
+
+    .buttons--repair {
+        background-image: url(icon/repair.svg);
+    }
+
+    .buttons--checkstatus {
+        background-image: url(icon/checkstatus.svg);
+    }
+
+    .interactiv-group__divider-left{
+        display: none;
+    }
+
+    .interactiv-group__divider-right{
+        border: 2px solid #EAEAEA;
+        border-radius: 2px;
+        height: 32px;       
+    }
+
+    .scrol-menu {
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        white-space: nowrap;
+        justify-content: space-between;
+        height: 55px;
+
+    }
+
+    .scrol-menu__item {
+        border: 2px solid transparent;
+        margin: 0 10px;
+        padding: 5px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #7E7E82;
+    }
+
+    .scrol-menu::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .scrol-menu__item:hover {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .main-info__text {
+        width: 100vw;
+    }
+
+    .main-info__picture img {
+        width: 100vw;
+    }
+
+    .main-info__text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        margin: 0 10px;
+        padding-left: 10px;
+        height: 90px;
+        overflow: hidden;
+    }
+
+    .main-info__button {
+        background-image: url(icon/reedmore.svg);
+        background-size: cover;
+        border: none;
+        width: 24px;
+        height: 24px;
+        margin: 10px 20px;
+    }
+
+    .repair-check-name {
+        display: none;
+    }
+
+    .interactiv-buttons {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+    @font-face {
+        font-family: "TT Lakes";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: URL(fonts/TTLakes-Light.woff) format(woff);
+    }
+
+    @font-face {
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-display: swap;
+        src: URL(fonts/TTLakesCondensed-Bold.woff) format(woff);
+    }
+
+    body {
+        font-family: "TT Lakes";
+    }
+
+    main {
+        background-color: #F8F8F8;
+        margin: 0 -8px;
+        padding-top: 5px;
+        border-top: 1px solid #B8FFEC;       
+    }
+
+    h1 {
+        font-family: "TT Lakes Condensed";
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -0.6px;
+        margin-left: 10px;
+    }
+
+    h1::before {
+        content: url(icon/highlight.svg);
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    .buttons {
+        align-self: center;
+        background-size: cover;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border: none; 
+    }
+
+    .logo__buttons {
+        background-size: cover;
+        background-color: white;
+        width: 96.55px;
+        height: 50.81px;
+        border: none; 
+    }
+
+    .interactiv-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        margin: 15px -8px;
+        column-gap: 20px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+    }
+
+    .buttons--burger {
+        background-image: url(icon/burger.svg);
+    }
+
+    .central-buttons {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .logo__buttons--logo {
+        background-image: url(icon/logo.svg);      
+    }
+
+    .call-chat-profile {
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 20px;
+    }
+
+    .buttons--call {
+        background-image: url(icon/call.svg);
+    }
+
+    .buttons--chat {
+        background-image: url(icon/chat.svg);
+    }
+
+    .buttons--profile {
+        background-image: url(icon/profile.svg);
+    }   
+
+    .repair-check {
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .buttons--repair {
+        background-image: url(icon/repair.svg);
+    }
+
+    .buttons--checkstatus {
+        background-image: url(icon/checkstatus.svg);
+    }
+
+    .interactiv-group__divider-left{
+        border: 2px solid #EAEAEA;
+        border-radius: 2px;
+        height: 32px;
+        margin: 0;
+    }
+
+    .interactiv-group__divider-right{
+        border: 2px solid #EAEAEA;
+        border-radius: 2px;
+        height: 32px;
+        margin: 0;
+    }
+
+    .scrol-menu {
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        white-space: nowrap;
+        justify-content: space-between;
+        padding: 0 25px;
+    }
+
+    .scrol-menu__item {
+        border: 2px solid transparent;
+        padding: 5px 20px;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #7E7E82;
+    }
+
+    .scrol-menu::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .scrol-menu__item:hover {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+
+    .main-info {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        padding: 0 25px;
+    }
+
+    .main-info__text {
+        width: 50vw;
+    }
+
+    .main-info__picture img {
+        width: 50vw;
+    }
+
+    .main-info__text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        margin: 0 10px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .main-info__button {
+        background-image: url(icon/reedmore.svg);
+        background-size: cover;
+        border: none;
+        width: 24px;
+        height: 24px;
+        margin: 10px 20px;
+    }
+
+    .repair-check-name {
+        display: none;
+    }
+
+    .interactiv-buttons {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1120px) {
+
+    @font-face {
+        font-family: "TT Lakes";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: URL(fonts/TTLakes-Light.woff) format(woff);
+    }
+
+    @font-face {
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-display: swap;
+        src: URL(fonts/TTLakesCondensed-Bold.woff) format(woff);
+    }
+
+    body {
+        font-family: "TT Lakes";
+    }
+
+    main {
+        background-color: #F8F8F8;
+        margin: 0 -8px;
+        padding-top: 40px;
+    }
+
+    h1 {
+        font-family: "TT Lakes Condensed";
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -0.6px;
+        margin-left: 10px;
+    }
+
+    h1::before {
+        content: url(icon/highlight_more1120.svg);
+        position: absolute;
+        margin-left: -32px;
+    }
+
+    .buttons {
+        align-self: center;
+        background-size: cover;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border: none; 
+    }
+
+    .buttons--repair {
+        background-image: url(icon/repair.svg);
+    }
+
+    .buttons--checkstatus {
+        background-image: url(icon/checkstatus.svg);
+    }
+
+    .interactiv-group {
+        display: none;
+    }
+
+    .scrol-menu {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0 25px;
+    }
+
+    .scrol-menu__item {
+        border: 2px solid transparent;
+        margin: 0 10px;
+        padding: 5px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #7E7E82;
+        white-space: nowrap;
+    }
+
+    .scrol-menu__item:hover {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+
+    .main-info {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        padding: 0 25px;
+    }
+
+    .main-info__text {
+        width: 50vw;
+    }
+
+    .main-info__picture img {
+        width: 50vw;
+    }
+
+    .main-info__text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        margin: 0 10px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .main-info__button {
+        background-image: url(icon/reedmore.svg);
+        background-size: cover;
+        border: none;
+        width: 24px;
+        height: 24px;
+        margin: 10px 20px;
+    }
+
+    .buttons-name {
+        display: flex;
+        align-self: center;
+        column-gap: 10px;
+    }
+
+    .repair-check-name {
+        display: flex;
+        align-items: center;
+    }
+
+    .heder-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .interactiv-buttons {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 32px;
+    }
+
+}
