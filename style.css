@@ -119,18 +119,18 @@
 
     .scrol-menu {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         overflow-x: scroll;
         white-space: nowrap;
         justify-content: space-between;
-        height: 55px;
-
+        padding: 0 20px;
     }
 
     .scrol-menu__item {
         border: 2px solid transparent;
-        margin: 0 10px;
-        padding: 5px 20px;
+        margin: auto;
+        padding: 5px 15px;
+        text-align: center;
         text-decoration: none;
         font-size: 16px;
         color: #7E7E82;
@@ -222,13 +222,13 @@
         font-size: 28px;
         line-height: 40px;
         letter-spacing: -0.6px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
 
     h1::before {
         content: url(icon/highlight.svg);
         position: absolute;
-        margin-left: -10px;
+        margin-left: -40px;
     }
 
     .buttons {
@@ -333,13 +333,14 @@
         overflow-x: scroll;
         white-space: nowrap;
         justify-content: space-between;
-        padding: 0 25px;
+        padding: 0 40px;
     }
 
     .scrol-menu__item {
         border: 2px solid transparent;
-        padding: 5px 20px;
-        margin: 0 15px;
+        margin: auto;
+        padding: 5px 15px;
+        text-align: center;
         text-decoration: none;
         font-size: 16px;
         color: #7E7E82;
@@ -358,7 +359,7 @@
         display: flex;
         justify-content: center;
         height: 100vh;
-        padding: 0 25px;
+        padding: 15px 25px;
     }
 
     .main-info__text {
@@ -422,7 +423,7 @@
 
     main {
         background-color: #F8F8F8;
-        margin: 0 -8px;
+        margin: -8px -8px;
         padding-top: 40px;
     }
 
@@ -431,7 +432,7 @@
         font-size: 28px;
         line-height: 40px;
         letter-spacing: -0.6px;
-        margin-left: 10px;
+        margin-left: 32px;
     }
 
     h1::before {
@@ -487,7 +488,7 @@
         display: flex;
         justify-content: center;
         height: 100vh;
-        padding: 0 25px;
+        padding: 15px 25px;
     }
 
     .main-info__text {
