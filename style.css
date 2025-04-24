@@ -140,6 +140,12 @@
         width: 0;
     }
 
+    .scrol-menu {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+
     .scrol-menu__item:hover {
         border: 2px solid #B8FFEC;
         border-radius: 5px;
