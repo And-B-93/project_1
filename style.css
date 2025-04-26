@@ -178,10 +178,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 132px;
         padding: 0;
-        margin: 16px 0;
+        margin: 16px;
         background-color: #F8F8F8;
+        font-size: 16px;
+        font-family: "TT Lakes";
         border: none;
     }
 
@@ -394,11 +395,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 132px;
         padding: 0;
-        margin: 16px 0;
+        margin: 16px;
         background-color: #F8F8F8;
         border: none;
+        font-size: 16px;
+        font-family: "TT Lakes";
     }
 
     .repair-check-name {
@@ -525,11 +527,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 132px;
         padding: 0;
-        margin: 16px 0;
+        margin: 16px;
         background-color: #F8F8F8;
         border: none;
+        font-size: 16px;
+        font-family: "TT Lakes";
     }
 
     .buttons-name {
