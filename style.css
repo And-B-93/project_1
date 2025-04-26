@@ -61,8 +61,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10px;
-        margin: 15px -8px;
+        padding: 15px 0;
         column-gap: 20px;
     }
 
@@ -144,7 +143,6 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
-    
 
     .scrol-menu__item:hover {
         border: 2px solid #B8FFEC;
@@ -176,13 +174,15 @@
         overflow: hidden;
     }
 
-    .main-info__button {
-        background-image: url(icon/reedmore.svg);
-        background-size: cover;
+    .button-reed-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 132px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #F8F8F8;
         border: none;
-        width: 24px;
-        height: 24px;
-        margin: 10px 20px;
     }
 
     .repair-check-name {
@@ -258,8 +258,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 20px;
-        margin: 15px -8px;
+        padding: 15px 0;
         column-gap: 20px;
     }
 
@@ -356,6 +355,11 @@
         width: 0;
     }
 
+    .scrol-menu {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
     .scrol-menu__item:hover {
         border: 2px solid #B8FFEC;
         border-radius: 5px;
@@ -386,13 +390,15 @@
         overflow: hidden;
     }
 
-    .main-info__button {
-        background-image: url(icon/reedmore.svg);
-        background-size: cover;
+    .button-reed-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 132px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #F8F8F8;
         border: none;
-        width: 24px;
-        height: 24px;
-        margin: 10px 20px;
     }
 
     .repair-check-name {
@@ -515,19 +521,26 @@
         overflow: hidden;
     }
 
-    .main-info__button {
-        background-image: url(icon/reedmore.svg);
-        background-size: cover;
+    .button-reed-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 132px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #F8F8F8;
         border: none;
-        width: 24px;
-        height: 24px;
-        margin: 10px 20px;
     }
 
     .buttons-name {
         display: flex;
-        align-self: center;
+        align-items: center;
+        justify-content: center;
         column-gap: 10px;
+        border: none;
+        font-size: 16px;
+        font-family: "TT Lakes";
+        background-color: #F8F8F8;
     }
 
     .repair-check-name {
